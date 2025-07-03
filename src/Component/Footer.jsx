@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className='bg-white py-6 w-full mt-auto absolute bottom-0'>
+        <div className='bg-white py-6 w-full fixed bottom-0 left-0 z-50'>
             <div className='md:flex justify-between items-center px-10 gap-y-4'>
                 <div className='flex items-center gap-x-3 justify-center md:justify-start text-xs md:text-sm'>
                     Arizonachipping © 2025 <p className='uppercase'>powered by arizona</p>
@@ -23,3 +23,4 @@ const Footer = () => {
 }
 
 export default Footer
+
