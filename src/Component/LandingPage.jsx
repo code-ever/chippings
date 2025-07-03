@@ -25,7 +25,7 @@ const LandingPage = () => {
                                 <option value="Ebonyi">Ebonyi</option>
                             </select>
                             <p style={{ marginTop: '10px' }}>Select from the dropdown below</p>
-                            <button type="submit" className='mt-[10px] rounded-lg text-[#2a2a2c] bg-white p-3 w-40 py-4'>
+                            <button type="submit" className='mt-[10px] rounded-lg text-[#2a2a2c] bg-[#97969a] p-3 w-40 py-4'>
                                 Start ordering
                             </button>
                         </form>
