@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='bg-white py-6 w-full mt-auto absolute bottom-0'>
             <div className='md:flex justify-between items-center px-10 gap-y-4'>
-                <div className='flex items-center gap-x-3 justify-center md:justify-start text-sm'>
+                <div className='flex items-center gap-x-3 justify-center md:justify-start text-xs md:text-sm'>
                     Arizonachipping © 2025 <p className='uppercase'>powered by arizona</p>
                 </div>
                 <div className='flex gap-x-4 py-4 md:py-1 justify-center md:justify-start'>
