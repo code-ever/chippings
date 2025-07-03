@@ -1,19 +1,20 @@
 import React from 'react'
 import landImage from '../images/pebbles-arragement-top-view.jpg'
-import arizo from '../images/logo.jpeg'
+import arizo from '../images/logo1.png'
 
 const LandingPage = () => {
     return (
         <div>
             <div
-                className='bg-[#d9b348] w-full h-screen'
+               
+                className='bg-[#2a2a2c] w-full h-screen'
             >
-                <div className=' p-6 '>
-                    <img src={arizo} alt="logo" className=' rounded-lg w-24'  />
+                <div className='pl-10 p-6 '>
+                    <img src={arizo} alt="logo" className=' rounded-lg w-24' />
                 </div>
 
                 <div className='flex justify-between p-3'>
-                    <div className=' p-8 w-full md:w-1/2 text-white'>
+                    <div className=' p-8 w-full md:w-1/2 text-[#d9b348]'>
                         <p className='py-4'>Welcome to Arizona chipping</p>
                         <p className='text-xl md:text-2xl'>Please select location you are ordering from</p>
                         <form className='py-8 md:py-4'>
