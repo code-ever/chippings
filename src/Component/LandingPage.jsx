@@ -16,7 +16,7 @@ const LandingPage = () => {
                 <div className='flex justify-between p-3'>
                     <div className=' pt-4 pl-8 w-full md:w-1/2 text-[#d9b348]'>
                         <p className='py-4'>Welcome to Arizona chipping</p>
-                        <p className='text-2xl md:text-2xl'>Please select location you are ordering from.</p>
+                        <p className='text-2xl md:text-2xl'>Please select location you are placing ordering from.</p>
                         <form className='py-8 md:py-4'>
                             <select className='p-4 rounded-md focus:bg-[#d9b348] text-sm text-gray-400 w-full'>
                                 <option value="">Select Location</option>
