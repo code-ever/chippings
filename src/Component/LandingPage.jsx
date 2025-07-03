@@ -6,8 +6,7 @@ const LandingPage = () => {
     return (
         <div>
             <div
-               
-                className='bg-[#2a2a2c] w-full h-screen fixed top-0 left-0 bottom-0'
+                className='bg-[#2a2a2c] bg-fixed w-full h-screen fixed top-0 left-0 bottom-0 '
             >
                 <div className='pl-10 pt-6 '>
                     <img src={arizo} alt="logo" className=' rounded-lg w-24' />
@@ -31,7 +30,7 @@ const LandingPage = () => {
                             </button>
                         </form>
                     </div>
-                    <div> 
+                    <div>
                         <img src={landImage} className='w-[300px] hidden md:block h-[300px] rounded-full ' alt="" />
                     </div>
                 </div>
